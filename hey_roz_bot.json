@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "hey roz bot",
+  "author": "Me",
+  "model": "stream_state_internal_quant.tflite",
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.85,
+    "sliding_window_size": 10,
+    "feature_step_size": 10
+  }
+}
